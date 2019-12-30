@@ -11,6 +11,9 @@ export class RecipeListComponent implements OnInit {
     new Recipe('Steak', 
     'Cook as steak in less than a half an hour!',
     'https://images.pitboss-grills.com/catalog/recipes/1200px/Reverse-Seared-NY-Steak.jpg'
+    ),
+    new Recipe('Rib Eye', 'Cook a tasty ribeye',
+    'https://images.pitboss-grills.com/catalog/recipes/1200px/Reverse-Seared-NY-Steak.jpg'
     )
   ]
   constructor() { }
