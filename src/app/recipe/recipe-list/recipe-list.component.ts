@@ -8,8 +8,8 @@ import { Recipe } from '../recipe.model'
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
-    new Recipe('Test Recipe', 
-    'This is a test description',
+    new Recipe('Steak', 
+    'Cook as steak in less than a half an hour!',
     'https://images.pitboss-grills.com/catalog/recipes/1200px/Reverse-Seared-NY-Steak.jpg'
     )
   ]
